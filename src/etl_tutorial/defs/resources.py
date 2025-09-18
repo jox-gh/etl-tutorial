@@ -1,6 +1,6 @@
+import dagster as dg
 from dagster_duckdb import DuckDBResource
 
-import dagster as dg
 
 database_resource = DuckDBResource(database="/tmp/jaffle_platform.duckdb")
 
